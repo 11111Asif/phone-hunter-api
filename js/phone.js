@@ -69,14 +69,14 @@ const phoneShowDetails = (phone) => {
 
   const showDetailsContainer = document.getElementById('show-details-container')
   showDetailsContainer.innerHTML = `
-      <img class = "flex text-center justify-center items-center" src= "${phone.image}" alt="" />
-      <p class = "font-bold"><span>Storage: ${phone.mainFeatures.storage}</span></p>
-      <p>Display Size: ${phone.mainFeatures.displaySize}</p>
-      <p>ChipSet: ${phone.mainFeatures.chipSet}</p>
-      <p>Memory: ${phone.mainFeatures.memory}</p>
-      <p>Slug: ${phone.slug}</p>
-      <p>ReleaseDate: ${phone.releaseDate}</p>
-      <p>Brand: ${phone.brand}</p>
+      <img src= "${phone.image}" alt="" />
+      <p><span class= "font-bold">Storage: </span>${phone.mainFeatures.storage}</p>
+      <p><span class= "font-bold">Display Size: </span>${phone.mainFeatures.displaySize}</p>
+      <p><span class= "font-bold">ChipSet: </span>${phone.mainFeatures.chipSet}</p>
+      <p><span class= "font-bold">Memory: </span>${phone.mainFeatures.memory}</p>
+      <p><span class= "font-bold">Slug: </span>${phone.slug}</p>
+      <p><span class= "font-bold">ReleaseDate: </span>${phone.releaseDate}</p>
+      <p><span class= "font-bold">Brand: </span>${phone.brand}</p>
   `
 
 
